@@ -1,0 +1,97 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Cherry Blassom"
+theme = "parsa-hugo"
+# CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/headroom/headroom.js"
+  [[params.plugins.js]]
+  URL = "plugins/instafeed/instafeed.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/masonry/masonry.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/smooth-scroll/smooth-scroll.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  
+  [[menu.main]]
+  name = "Flowers"
+  url = "posts"
+  weight = 1
+  
+  [[menu.main]]
+  name = "About"
+  url = "about"
+  weight = 3
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
+
+ [params]
+ logo = "Image/2.jpg"
+home = "Home"
+homeLayoutToggle = true
+description = "That are Flowers"
+
+[params.preloader]
+  enable = true
+
+  
+    [[params.footer.contacts]]
+    contactInfo = "Tel: +09 123 456 78"
+    
+     [[params.footer.contacts]]
+    contactInfo = "Mail: sylw@gmail.com"
+
+ 
+
+  [params.search]
+  enable = true
+
+  [params.footer]
+  [[params.footer.addresses]]
+  address = "Yangon"
+
+ [[params.footer.addresses]]
+    address = "Myanmar"
+
+[[params.social]]
+  icon = "ti-facebook"
+  URL = "#"
+
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-linkedin"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-github"
+  URL = "#"
+
+
+
